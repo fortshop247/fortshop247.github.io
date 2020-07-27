@@ -33,16 +33,16 @@ a{
     font-weight: 900;
     padding: 20px;
 }
-    max-width: 1130px and (min-width: 700px){
-a{
-    font-size: 15px;
+@media (max-width: 1130px) and (min-width: 700px){
+    a{
+        font-size: 15px;
+    }
 }
-}
-    max-width: 700px{
-a{
-    font-size: 10px;
-}
-.button{
+@media (max-width: 700px){
+    a{
+        font-size: 10px;
+    }
+    .button{
     height: 60px;
-}
+    }
 }
